@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Técnico</title>
+</head>
+
+
+<body>
+    <!-- Barra superior. home | tecnico | github | linkedin | contato -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="tecnico.html">Técnico</a></li>
+        <li><a href="https://github.com/nimetsuccumbs" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/sofia-nimet-a9b22a269/" target="_blank">Linkedin</a></li>
+        <li style="float: right;"><a href="contato.html">Contato</a></li>
+    </ul>
+
+    <!-- Barra Lateral. matematica | humanas | natureza | linguagens | X -->
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="materias/materias.html#matematica">Matemática</a>
+        <a href="materias/materias.html#humanas">Humanas</a>
+        <a href="materias/materias.html#natureza">Natureza</a>
+        <a href="materias/materias.html#linguagens">Linguagens</a>
+        <a href="materias/materias.html#PPE">PPE</a>
+    </div>
+
+
+    <!-- matérias -->
+    <div id="main">
+
+        <span class=materias onclick="openNav()">&#9776; Matérias</span>
+
+        <div id="desenvolvimento">
+            <br><br><br><br><br>
+            <div class="bar">
+                <h2>Desenvolvimento De Sistemas</h2>
+                <div class="w3-bar w3-black">
+                    <button class="bar-item" onclick="triDesenvolvimento('desenv1')">1º Trimestre</button>
+                    <button class="bar-item" onclick="triDesenvolvimento('desenv2')">2º Trimestre</button>
+                    <button class="bar-item" onclick="triDesenvolvimento('desenv3')">3º Trimestre</button>
+                    <br><br>
+                </div>
+
+                <div id="desenv1" class="trimestreDesenvolvimento">
+
+                    <button type="button" class="collapsible">Calculadora Horas</button>
+                    <div class="atividade">
+                        <p>Nesta atividade, nós desenvolvemos uma calculadora de horas em React.</p>
+                        <a target="_blank" href="https://nimetsuccumbs.github.io/calculadorahoras/"><img class="img" src="materias/assets/calculadora.png" style="width: 55%;"></a><br><br><br>
+
+
+                    </div>
+
+                    <button type="button" class="collapsible">Postman</button>
+                    <div class="atividade">
+                        <p>Aqui, tivemos nosso primeiro contato com o JAVA e Banco de Dados.</p>
+                        <a target="_blank" href="materias/assets/postman 1.png"><img src="materias/assets/postman 1.png" style="width: 80%;" class="img"><br><br></a>
+                        <a target="_blank" href="materias/assets/postman 2.png"><img src="materias/assets/postman 2.png" style="width: 90%;" class="img"><br><br></a>
+
+                    </div>
+
+                    <br><br>
+                </div>
+            </div>
+        </div>
+
+        <div id="implantacao">
+            <br><br><br><br><br>
+
+            <div class="bar">
+                <h2>Implantação e Manutenção de Sistemas</h2>
+                <div class="w3-bar w3-black">
+                    <button class="bar-item" onclick="triImplantacao('imp1')">1º Trimestre</button>
+                    <button class="bar-item" onclick="triImplantacao('imp2')">2º Trimestre</button>
+                    <button class="bar-item" onclick="triImplantacao('imp3')">3º Trimestre</button>
+                    <br><br>
+                </div>
+
+                <div id="imp1" class="trimestreImplantacao">
+
+                    <button type="button" class="collapsible">CRM</button>
+                    <div class="atividade">
+                        <p>Neste projeto, criamos um cronograma como uma equipe de Implantação, para assim iniciar um Projeto de Implementação de Sistema CRM em desenvolvimento. Coordenando o processo para que todas as atividades necessárias da implantação
+                            ocorram de forma organizada por todos da equipe.</p>
+                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1J47N-4hLthpqsOMPtQm2aBx7bx1tLDfOKzXoVB1QoQY/edit?usp=sharing"><img class="img" src="materias/assets/crm.png" style="width: 90%;"></a><br><br><br>
+
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+            <div id="modelagem">
+                <br><br><br><br><br>
+
+                <div class="bar">
+                    <h2>Modelagem de Sistemas</h2>
+                    <div class="w3-bar w3-black">
+                        <button class="bar-item" onclick="triModelagem('modelagem1')">1º Trimestre</button>
+                        <button class="bar-item" onclick="triModelagem('modelagem2')">2º Trimestre</button>
+                        <button class="bar-item" onclick="triModelagem('modelagem3')">3º Trimestre</button>
+                        <br><br>
+                    </div>
+
+                    <div id="modelagem1" class="trimestreModelagem">
+
+                        <button type="button" class="collapsible">Casos de Uso</button>
+                        <div class="atividade">
+                            <p>Nesta proposta, desenvolvemos o diagrama de nossa S.A, botando em prática nossos conhecimentos obtidos de casos de uso.</p>
+                            <a target="_blank" href="https://lucid.app/lucidchart/d44af6f0-98d9-4c0b-b85c-38a961aa19c7/edit?viewport_loc=-491%2C-451%2C2519%2C1535%2C0_0&invitationId=inv_17bc7a94-ccf2-4de0-af71-5722ce18cc03"><img class="img" src="materias/assets/SA usuario cadastrado.png" style="width: 80%;"></a><br><br>
+                            <a target="_blank" href="https://lucid.app/lucidchart/d44af6f0-98d9-4c0b-b85c-38a961aa19c7/edit?viewport_loc=-491%2C-451%2C2519%2C1535%2C0_0&invitationId=inv_17bc7a94-ccf2-4de0-af71-5722ce18cc03"><img class="img" src="materias/assets/SA sem cadastro.png" style="width: 60%;"></a><br><br>
+                        </div>
+                        <br><br>
+                    </div>
+
+                </div>
+                <br><br><br><br>
+            </div>
+
+            <div class="portfolio">
+                <p>
+                    Portfólios Anteriores<br>
+                    <a href="https://docs.google.com/presentation/d/1Xdu_BnhLcgp5RTco9DhicCBXvm8dAmonrraOkMdjx38/edit?usp=sharing" target="_blank">2023</a>&nbsp;<a href="https://docs.google.com/presentation/d/113NOq3Dv2PG2NVXaXI5O5pMsD4Vye1r7tmLk6loP-IE/edit?usp=sharing"
+                        target="_blank">2022</a>
+                </p>
+            </div>
+            <script src="script.js"></script>
+</body>
+
+</html>
