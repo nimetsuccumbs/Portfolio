@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+
+
+<body>
+    <!-- Barra superior. home | tecnico | github | linkedin | contato -->
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="tecnico.html">Técnico</a></li>
+        <li><a href="https://github.com/nimetsuccumbs" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/sofia-nimet-a9b22a269/" target="_blank">Linkedin</a></li>
+        <li style="float: right;"><a href="contato.html">Contato</a></li>
+    </ul>
+
+    <!-- Barra Lateral. matematica | humanas | natureza | linguagens | X -->
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="materias/materias.html#matematica">Matemática</a>
+        <a href="materias/materias.html#humanas">Humanas</a>
+        <a href="materias/materias.html#natureza">Natureza</a>
+        <a href="materias/materias.html#linguagens">Linguagens</a>
+        <a href="materias/materias.html#PPE">PPE</a>
+    </div>
+
+    <!-- carta introdutória -->
+
+    <div id="main">
+        <span class=materias onclick="openNav()">&#9776; Matérias</span>
+        <div class="bar">
+            <br>
+            <h3>Quem sou eu?</h3>
+            <p>Me chamo Sofia Nimet Chaves, tenho 17 anos, nasci e moro em Florianópolis. Desenho com frequência desde pequena, tanto tradicionalmente quanto digitalmente. Sempre tive os mesmos hobbies e hábitos, como o interesse em arte, jogos, música,
+                fóruns online e programação. Costumo ler sobre vários tópicos diferentes online independente do assunto, por curiosidade. Então nunca soube exatamente no que eu gostaria de me aprofundar, mas acabei me adaptando bem ao curso técnico, agora
+                com mais certeza sobre quais assuntos desejo explorar. No meu tempo livre, costumo praticar meus interesses com vários pequenos projetos pessoais, como por exemplo, uma equipe vuluntária na tradução de strings de alguns jogos para trazer
+                o público brasileiro aos mesmos, e ao longo do ano, espero explorar mais áreas e assuntos de programação. Tanto profissionalmente quanto projetos independentes, e espero também me aprofundar mais em design e programas de fins artísticos
+                e ilustração.</p>
+            <br><br>
+        </div>
+
+        <!-- currículo -->
+        <br><br><br>
+        <div class="bar">
+            <h3>Currículo</h3>
+            <a target="_blank" href="materias/assets/curriculo.png"><img src="materias/assets/curriculo.png" style="width: 50%;" class="img"></a>
+            <br><br>
+        </div>
+        <br>
+
+        <!-- certificados -->
+        <br><br><br>
+        <div class="bar">
+            <h3>Certificados</h3>
+            <a target="_blank" href="materias/assets/pythoncertificate.pdf"><img src="materias/assets/python.png" style="width: 25%;" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="materias/assets/cybercertificate.pdf"><img src="materias/assets/cyber.png" style="width: 25%;" class="img"></a>
+            <a target="_blank" href="materias/assets/linux.pdf"><img src="materias/assets/linuxbadge.png" style="width: 30%;" class="img"></a><br><br>
+        </div>
+        <br><br><br>
+
+        <div class="portfolio">
+            <p>
+                Portfólios Anteriores<br>
+                <a href="https://docs.google.com/presentation/d/1Xdu_BnhLcgp5RTco9DhicCBXvm8dAmonrraOkMdjx38/edit?usp=sharing" target="_blank">2023</a>&nbsp;<a href="https://docs.google.com/presentation/d/113NOq3Dv2PG2NVXaXI5O5pMsD4Vye1r7tmLk6loP-IE/edit?usp=sharing"
+                    target="_blank">2022</a>
+            </p>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
