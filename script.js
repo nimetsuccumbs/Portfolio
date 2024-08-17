@@ -94,3 +94,13 @@ function triModelagem(trimestreName) {
     }
     document.getElementById(trimestreName).style.display = "block";
 }
+
+//BOTOES TRIMESTRE DE BANCO DE DADOS
+function triBanco(trimestreName) {
+    var i;
+    var x = document.getElementsByClassName("trimestreBanco");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById(trimestreName).style.display = "block";
+}
