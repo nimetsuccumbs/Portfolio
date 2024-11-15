@@ -42,7 +42,6 @@
                 <div class="w3-bar w3-black">
                     <button class="bar-item" onclick="triDesenvolvimento('desenv1')">1º Trimestre</button>
                     <button class="bar-item" onclick="triDesenvolvimento('desenv2')">2º Trimestre</button>
-                    <button class="bar-item" onclick="triDesenvolvimento('desenv3')">3º Trimestre</button>
                     <br><br>
                 </div>
 
@@ -106,8 +105,6 @@
                 <h2>Implantação e Manutenção de Sistemas</h2>
                 <div class="w3-bar w3-black">
                     <button class="bar-item" onclick="triImplantacao('imp1')">1º Trimestre</button>
-                    <button class="bar-item" onclick="triImplantacao('imp2')">2º Trimestre</button>
-                    <button class="bar-item" onclick="triImplantacao('imp3')">3º Trimestre</button>
                     <br><br>
                 </div>
 
@@ -153,7 +150,7 @@
                     <div class="w3-bar w3-black">
                         <button class="bar-item" onclick="triModelagem('modelagem1')">1º Trimestre</button>
                         <button class="bar-item" onclick="triModelagem('modelagem2')">2º Trimestre</button>
-                        <button class="bar-item" onclick="triModelagem('modelagem3')">3º Trimestre</button>
+
                         <br><br>
                     </div>
 
@@ -213,20 +210,19 @@
                 <h2>Banco de Dados</h2>
 
                 <div class="w3-bar w3-black">
-                    <button class="bar-item" onclick="triBanco('banco1')">1º Trimestre</button>
                     <button class="bar-item" onclick="triBanco('banco2')">2º Trimestre</button>
                     <button class="bar-item" onclick="triBanco('banco3')">3º Trimestre</button>
                     <br><br>
                 </div>
                 <!-- primeiro trimestre !!! :3 -->
-                <div id="banco1" class="trimestreBanco">
+                <div id="banco1" class="trimestreBanco" style="display: none;">
                     Nada do primeiro trimestre até o momento.
                 </div>
 
 
                 <!-- segundo trimestreeeeeeeeee -->
 
-                <div id="banco2" class="trimestreBanco" style="display: none;">
+                <div id="banco2" class="trimestreBanco">
                     <button type="button" class="collapsible">Modelo Lógico</button>
                     <div class="atividade">
                         <p>Aqui, estudando as modelagens do banco de dados aprendemos sobre o modelo lógico. Após o estudo do material, criamos o nosso próprio modelo lógico partindo da ideia de um banco de reservas de hotel.</p>
@@ -250,15 +246,102 @@
                 </div>
 
                 <div id="banco3" class="trimestreBanco" style="display: none;">
-                    Nada do terceiro trimestre até o momento.
+                    <button type="button" class="collapsible">Banco de Dados Biblioteca</button>
+                    <div class="atividade">
+                        <p>Aqui, continuamos a praticar os comandos DDL e DML do SQL, com uma atividade prática onde criamos o banco de biblioteca, com seus respectivos títulos, autores e editoras.</p>
+                        <a target="_blank" href="https://docs.google.com/document/d/1jSPpVZXiOumyQfA45COHDAMCh-caDJN0MW7CA0RuVfs/edit?usp=sharing"><img class="img" src="materias/assets/sqllivro.png" style="width: 60%;"></a>
+                        <br><br><br>
+                    </div>
+
+                    <button type="button" class="collapsible">SQL Left e Right JOIN</button>
+                    <div class="atividade">
+                        <p>Nessa atividade, aprendemos os comandos finais da diciplina com o SQL, além de conhecermos melhor a inferface do PgAdmin.</p>
+                        <a target="_blank" href="materias/assets/sqlrightleftjoin.png"><img class="img" src="materias/assets/sqlrightleftjoin.png" style="width: 80%;"></a>
+                        <br><br><br>
+                    </div>
+
                 </div>
 
                 <br><br>
             </div>
             <br><br>
         </div>
+        <!-- matéria da karien <3 -->
+        <div id="aplicativo">
+            <br><br><br>
+            <div class="bar">
+                <h2>Programação de Aplicativos</h2>
+                <div class="w3-bar w3-black">
+                    <button class="bar-item" onclick="triAplicativo('app3')">3º Trimestre</button>
+                    <br><br>
+                </div>
+
+                <div id="app1" class="trimestreAplicativo" style="display: none;">
+
+                    Nada do primeiro trimestre até o momento.
+
+                    <br><br>
+                </div>
+
+                <div id="app2" class="trimestreAplicativo" style="display: none;">
+                    Nada do segundo trimestre até o momento.
+                </div>
+
+                <div id="app3" class="trimestreAplicativo">
+                    <button type="button" class="collapsible">Atividade Express</button>
+                    <div class="atividade">
+                        <p>Ficará pronto antes do dia 18</p>
+                        <a target="_blank" href=""><img class="img" src="" style="width: 90%;"></a><br><br><br>
+                        <br><br><br>
+                    </div>
+
+                    <button type="button" class="collapsible">Tarefa 02</button>
+                    <div class="atividade">
+                        <p>Ficará pronto antes do dia 18</p>
+                        <a target="_blank" href=""><img class="img" src="" style="width: 50%;"></a>
+                        <br><br><br>
+                    </div>
+
+                    <br><br>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <!-- matéria do marcos !! -->
+        <div id="testes">
+            <br><br><br>
+            <div class="bar">
+                <h2>Testes de Sistema</h2>
+                <div class="w3-bar w3-black">
+                    <button class="bar-item" onclick="triTestes('test3')">3º Trimestre</button>
+                    <br><br>
+                </div>
+                <!-- primeiro trimestre -->
+                <div id="test1" class="trimestreTestes" style="display: none;">
+                    Nada do primeiro trimestre até o momento.
+
+                </div>
+                <!-- segundo trimestre -->
+                <div id="test2" class="trimestreTestes" style="display: none;">
+                    Nada do segundo trimestre até o momento.
+                </div>
+                <!-- terceiro trimestre -->
+                <div id="test3" class="trimestreTestes">
+
+                    <button type="button" class="collapsible">Apresentação Assuntos UC</button>
+                    <div class="atividade">
+                        <p>Ficará pronto antes do dia 18</p>
+                        <a target="_blank" href=""><img class="img" src="" style="width: 90%;"></a><br><br><br>
+                        <br><br><br>
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+
+        </div>
 
 
+        <br><br>
         <div class="portfolio">
             <p>
                 Portfólios Anteriores<br>

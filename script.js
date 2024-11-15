@@ -1,5 +1,5 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "236px";
+    document.getElementById("mySidenav").style.width = "228px";
     document.getElementById("main").style.marginLeft = "236px";
     document.body.style.backgroundColor = "rgb(194, 151, 122)";
 }
@@ -99,6 +99,26 @@ function triModelagem(trimestreName) {
 function triBanco(trimestreName) {
     var i;
     var x = document.getElementsByClassName("trimestreBanco");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById(trimestreName).style.display = "block";
+}
+
+//BOTOES PROGRAMAÇÃO DE APLICATIVOS
+function triAplicativo(trimestreName) {
+    var i;
+    var x = document.getElementsByClassName("trimestreAplicativo");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById(trimestreName).style.display = "block";
+}
+
+//BOTOES TESTES DE SISTEMA
+function triTestes(trimestreName) {
+    var i;
+    var x = document.getElementsByClassName("trimestreTestes");
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
